@@ -3,7 +3,8 @@ This is the basic AI-program and codes based on Python with VS-Code.
 
 # Solution of Solving Jupyter-Notebook and Jupyter-Lab Login(Authentication) Problem.
   - I. Open the Anaconda Navigator (Jupyter Notebook)
-  - II. Open the Anaconda Prompt, and then set to your Virtual-Environment that you gonna use. (conda activate yourVirtualEnviroment)
+  - II. Open the Anaconda Prompt, and then set to your Virtual-Environment that you gonna use. 
+        (conda activate yourVirtualEnviroment)
   - III. Type 'jupyter notebook --generate-config'
   - IV. Type 'ipython'
   - V. Type this (This part is register your password)
@@ -23,3 +24,13 @@ This is the basic AI-program and codes based on Python with VS-Code.
          (Out[1]: 'sha1:yourToken')
   - IX. jupyter notebook --NotebookApp.password='sha1:yourToken'
   - X. Input your password (12345 or 1234) to the 'password [  ] [Log IN]' Section.
+
+# After download this repository..
+  - I. Install `Anacona`
+  - II. Open `Anaconda-Prompt`.
+  - III. Type `conda create -n yourNewVirtual-Environment-Name python=3.7`.
+  - IV. Type  `conda activate yourNewVirtual-Environment-Name`.
+  - V. Check your new Virtual-Enviroment has been installed successfully.
+  - VI. Type `pip install tensorflow==2.0.0`.
+  - VII. Type `pip install keras==2.3`.
+  
