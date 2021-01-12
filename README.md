@@ -7,7 +7,7 @@ This is the basic AI-program and codes based on Python with VS-Code.
   - III. Type 'jupyter notebook --generate-config'
   - IV. Type 'ipython'
   - V. Type this (This part is register your password)
-    -- I. from IPython.lib import passwd
+    == I. from IPython.lib import passwd
     -- II. passwd()
     -- III. Enter password: 12345 (or 1234)
     -- IV. Verify password: 12345 (or 1234)
